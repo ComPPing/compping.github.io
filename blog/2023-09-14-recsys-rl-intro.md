@@ -19,6 +19,8 @@ tags: [ai, rl, recsys]
 
 이 포스트에서는 강화학습으로 추천 시스템을 구축하는 것에 대한 간단한 소개를 하려고 합니다.
 
+<!--truncate-->
+
 ## Recommdenr System Process
 
 추천 시스템은 크게 두 과정으로 나뉩니다.
