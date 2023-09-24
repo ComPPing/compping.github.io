@@ -53,7 +53,9 @@ contextual understanding은 크게 2가지 방법으로 처리할 수 있습니�
 
 ### Named Entity Recognition
 
-named entity recognition (NER)은 일종의 tagging 작업입니다. 어떤 텍스트로부터 **entity를 사전에 정의된 카테고리로 분류**하는 정보 추출 작업입니다. 카테고리 예시로 음식 타입, 분위기, 위치 등이 있습니다. NER 모델은 labeled data로부터 학습됩니다. 각 문장 내 단어는 상응하는 entity 타입으로 태그되어있습니다. entity는 유스케이스에 따라 다르게 정의됩니다.
+named entity recognition (NER)은 일종의 tagging 작업입니다. 어떤 텍스트로부터 **entity를 사전에 정의된 카테고리로 분류**하는 정보 추출 작업입니다. 카테고리 예시로 음식 타입, 분위기, 위치 등이 있습니다. NER 모델은 labeled data로부터 학습됩니다. 각 문장 내 단어는 상응하는 entity 타입으로 태그되어있습니다. entity는 유스케이스에 따라 다르게 정의됩니다. 아래 그림에서 entity로 'Name', 'Date', 'Designation', 'Subject"가 사전에 정의되어있는걸 확인할 수 있습니다.
+
+![](/img/conversational-recsys-overall-processes/named-entity-recognition.png)
 
 **Usage in candidate generation:**
 
