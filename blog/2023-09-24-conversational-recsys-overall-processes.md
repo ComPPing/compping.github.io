@@ -5,7 +5,7 @@ authors: devslem
 tags: [recsys, nlp, ai]
 ---
 
-이 포스트에서는 대화형 추천 시스템 (conversational recommender system)을 구축하기 위한 전반적인 과정과 유저의 utterance를 어떻게 처리할 것인가에 대해 간략히 다룹니다.
+이 포스트에서는 대화형 추천 시스템 (conversational recommender system)을 구축하기 위한 전반적인 과정과, 유저의 utterance와 같은 텍스트 데이터를 어떻게 처리할 것인가에 대해 간략히 다룹니다.
 
 유저의 utterance로부터 대화형 추천 시스템 구축은 자연어 처리 (natural language process), 추천 알고리즘, 유저 context에 대한 조합을 요구하는 복잡한 태스크입니다. 이를 step-by-step으로 알아봅시다:
 
@@ -45,11 +45,11 @@ tags: [recsys, nlp, ai]
     - 주기적으로 추천 시스템의 performance를 평가합니다. A/B testing과 같은 방법이 있습니다.
     - 데이터와 피드백을 더 많이 수집하고, 추천 모델을 개선합니다.
 
-이 중 **contextual understanding**에 대해 집중적으로 다뤄보겠습니다.
+이 중 텍스트 데이터를 처리하는 방법에 대해 집중적으로 다뤄보겠습니다.
 
-## Contextual Understanding
+## How to Extract Features from Text Data
 
-contextual understanding은 크게 2가지 방법으로 처리할 수 있습니다: named entity recognition, keyword extraction. 두 방법은 비슷하면서도 다릅니다.
+유저의 utterance와 같은 텍스트 데이터로부터 추천 시스템에 사용할 feature를 추출할 때 크게 2가지 방법으로 처리할 수 있습니다: named entity recognition, keyword extraction. 두 방법은 비슷하면서도 다릅니다.
 
 ### Named Entity Recognition
 
