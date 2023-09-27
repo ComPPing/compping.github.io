@@ -5,9 +5,11 @@ authors: halang
 tags: [frontend, nextjs, pwa, cloudflare]
 ---
 
-### 들어가기 전
 
 교내에서 열린 대회에 참여하여 AI를 이용한 서비스를 기획/개발중에 있다. 이번 포스팅에서는 프로젝트 초기 세팅(+`PWA`)과 더불어 cloudflare를 이용해 배포하기까지의 과정을 기록할 예정이다.
+
+<!--truncate-->
+
 
 ### 우선 Next 부터 설치
 
