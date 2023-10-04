@@ -67,7 +67,7 @@ const config = {
         title: 'ppingpong',
         logo: {
           alt: 'logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {to: '/blog', label: '블로그', position: 'left'},
