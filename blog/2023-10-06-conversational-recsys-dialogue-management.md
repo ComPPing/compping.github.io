@@ -11,6 +11,8 @@ tags: [recsys, nlp, ai]
 
 설령, 대화형 추천 시스템일지라도 유저는 마치 검색하듯이 단순히 간단한 질문만으로도 즉각적인 추천 아이템을 얻고 싶을 수 있고, multi-turn 대화를 통해 구체적인 특징을 만족하는 아이템을 얻고 싶을 수 있습니다. 그러나 아이템을 추천받기 위해 대화가 너무 길어지면 유저는 피로감을 느끼겠죠. 또한, 추천된 아이템에 대해 의논하거나 단순 잡담을 시도할 수도 있습니다. 이처럼 대화라는 것은 대단히 복잡한 과정입니다. 따라서 이를 별도로 처리할 필요가 있습니다.
 
+<!--truncate-->
+
 ## Dialogue Management based on Reinforcement Learning
 
 대화란 것은 보통 여러 번 수행되며 추천 시스템은 유저의 만족도를 높여야합니다. 그렇기 때문에 dialogue management는 **연속적인 의사결정 문제** (sequential decision making problem)입니다. 강화학습 (reinforcement learning, RL)은 연속적인 의사결정 문제를 최적화할 수 있습니다. 따라서, 강화학습으로 어떻게 이 문제를 해결할 수 있을 지 알아봅시다.
