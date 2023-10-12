@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[237],{3808:(e,t,r)=>{r.r(t),r.d(t,{default:()=>a});var s=r(7294);var u=r(6550);function a(){return s.createElement(u.l_,{to:"/blog"})}}}]);
