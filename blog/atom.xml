@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://compping.github.io/blog</id>
     <title>ppingpong Blog</title>
-    <updated>2023-10-06T00:00:00.000Z</updated>
+    <updated>2023-11-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://compping.github.io/blog"/>
     <subtitle>ppingpong Blog</subtitle>
     <icon>https://compping.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Oauth2 흐름(카카오, 구글)]]></title>
+        <id>https://compping.github.io/blog/2023/11/04/oauth2 흐름(카카오,구글)</id>
+        <link href="https://compping.github.io/blog/2023/11/04/oauth2 흐름(카카오,구글)"/>
+        <updated>2023-11-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[이번 프로젝트에서 로그인을 소셜로그인을 선택했고, 깨달은점이 많아 정리 해보려고합니다.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Conversational Recommender System - Dialogue Management]]></title>
         <id>https://compping.github.io/blog/conversational-recsys-dialogue-management</id>

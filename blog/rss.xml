@@ -4,10 +4,17 @@
         <title>ppingpong Blog</title>
         <link>https://compping.github.io/blog</link>
         <description>ppingpong Blog</description>
-        <lastBuildDate>Fri, 06 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Nov 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
+        <item>
+            <title><![CDATA[Oauth2 흐름(카카오, 구글)]]></title>
+            <link>https://compping.github.io/blog/2023/11/04/oauth2 흐름(카카오,구글)</link>
+            <guid>https://compping.github.io/blog/2023/11/04/oauth2 흐름(카카오,구글)</guid>
+            <pubDate>Sat, 04 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[이번 프로젝트에서 로그인을 소셜로그인을 선택했고, 깨달은점이 많아 정리 해보려고합니다.]]></description>
+        </item>
         <item>
             <title><![CDATA[Conversational Recommender System - Dialogue Management]]></title>
             <link>https://compping.github.io/blog/conversational-recsys-dialogue-management</link>
